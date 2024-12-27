@@ -1,0 +1,76 @@
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.person-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.person-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.person-table th,
+.person-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.person-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.person-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.person-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.person-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
